@@ -4,8 +4,9 @@ import partsIcon from "../icons/parts.png";
 import logo from "../icons/logo.png";
 
 import type { Item } from "../dataType/types";
+import type { Variants } from "framer-motion";
 
-export const parentVariants = {
+export const parentVariants: Variants = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
@@ -26,7 +27,8 @@ export const childVariants = {
 export const list: Item[] = [
   {
     id: 1,
-    question: "Haven't prepared your car for drifting yet? Don't you want to participate in the exciting DSR competitions? You can test yourself in these competitions.",
+    question:
+      "Haven't prepared your car for drifting yet? Don't you want to participate in the exciting DSR competitions? You can test yourself in these competitions.",
     src: driftIcon,
     alt: "drift Icon",
     imageClass: "w-3/4 h-auto",

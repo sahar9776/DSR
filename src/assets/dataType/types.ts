@@ -6,11 +6,3 @@ export type Item = {
   imageClass: string;
   divClass: string;
 };
-
-export type ParentVariants = {
-  hidden: { opacity: number };
-  show: {
-    opacity: number;
-    transition: { type: string; staggerChildren: number };
-  };
-};
