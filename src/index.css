@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* *{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+} */
+
+@font-face {
+  font-family: BebasNeue;
+  src: url("/fonts/BebasNeue.ttf");
+}
+body {
+  font-family: BebasNeue;
+  background: #0d0d0d;
+  overflow-x: hidden;
+}
+a,
+button {
+  cursor: pointer;
+}
